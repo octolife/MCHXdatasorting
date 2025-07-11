@@ -5,6 +5,7 @@ from io import BytesIO
 
 # Streamlit UI setup
 st.set_page_config(page_title="Excel Data Cleaner", page_icon="📊", layout="wide")
+st.logo("logo.png", size = "large")
 st.title('Excel Data Cleaner for MCHX (Charge-EEV) Experimental Results')
 st.markdown("""
 This tool automates the cleanup of experimental data scattered across multiple Excel sheets. 
